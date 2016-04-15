@@ -1,0 +1,13 @@
+{
+  "title": "Azure SDK",
+  "description": "Installs Azure SDK using the Chocolatey package manager",
+  "tags": [
+    "Windows",
+    "Azure"
+  ],
+  "iconUri": "https://chocolatey.org/content/packageimages/AzureBuildSDKvs2012.2.4.0.png",
+  "targetOsType": "Windows",
+  "runCommand": {
+    "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File startChocolatey.ps1 -PackageList dogtail.azuresdk"
+  }
+}
